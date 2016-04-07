@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E13A5FB1CB6C70400C76651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13A5FA1CB6C70400C76651 /* AppDelegate.m */; };
+		5E13A5FD1CB6C70400C76651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13A5FC1CB6C70400C76651 /* main.m */; };
+		5E13A6001CB6C70400C76651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13A5FF1CB6C70400C76651 /* ViewController.m */; };
+		5E13A6021CB6C70400C76651 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E13A6011CB6C70400C76651 /* Images.xcassets */; };
+		5E13A6051CB6C70400C76651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E13A6031CB6C70400C76651 /* Main.storyboard */; };
+		5E13A6111CB6C70400C76651 /* holaMundoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13A6101CB6C70400C76651 /* holaMundoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E13A60B1CB6C70400C76651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E13A5EC1CB6C70400C76651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E13A5F31CB6C70400C76651;
+			remoteInfo = holaMundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E13A5F41CB6C70400C76651 /* holaMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holaMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E13A5F81CB6C70400C76651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E13A5F91CB6C70400C76651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E13A5FA1CB6C70400C76651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E13A5FC1CB6C70400C76651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E13A5FE1CB6C70400C76651 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E13A5FF1CB6C70400C76651 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E13A6011CB6C70400C76651 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E13A6041CB6C70400C76651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E13A60A1CB6C70400C76651 /* holaMundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holaMundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E13A60F1CB6C70400C76651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E13A6101CB6C70400C76651 /* holaMundoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = holaMundoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E13A5F11CB6C70400C76651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E13A6071CB6C70400C76651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E13A5EB1CB6C70400C76651 = {
+			isa = PBXGroup;
+			children = (
+				5E13A5F61CB6C70400C76651 /* holaMundo */,
+				5E13A60D1CB6C70400C76651 /* holaMundoTests */,
+				5E13A5F51CB6C70400C76651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E13A5F51CB6C70400C76651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E13A5F41CB6C70400C76651 /* holaMundo.app */,
+				5E13A60A1CB6C70400C76651 /* holaMundoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E13A5F61CB6C70400C76651 /* holaMundo */ = {
+			isa = PBXGroup;
+			children = (
+				5E13A5F91CB6C70400C76651 /* AppDelegate.h */,
+				5E13A5FA1CB6C70400C76651 /* AppDelegate.m */,
+				5E13A5FE1CB6C70400C76651 /* ViewController.h */,
+				5E13A5FF1CB6C70400C76651 /* ViewController.m */,
+				5E13A6011CB6C70400C76651 /* Images.xcassets */,
+				5E13A6031CB6C70400C76651 /* Main.storyboard */,
+				5E13A5F71CB6C70400C76651 /* Supporting Files */,
+			);
+			path = holaMundo;
+			sourceTree = "<group>";
+		};
+		5E13A5F71CB6C70400C76651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E13A5F81CB6C70400C76651 /* Info.plist */,
+				5E13A5FC1CB6C70400C76651 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E13A60D1CB6C70400C76651 /* holaMundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E13A6101CB6C70400C76651 /* holaMundoTests.m */,
+				5E13A60E1CB6C70400C76651 /* Supporting Files */,
+			);
+			path = holaMundoTests;
+			sourceTree = "<group>";
+		};
+		5E13A60E1CB6C70400C76651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E13A60F1CB6C70400C76651 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E13A5F31CB6C70400C76651 /* holaMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E13A6141CB6C70400C76651 /* Build configuration list for PBXNativeTarget "holaMundo" */;
+			buildPhases = (
+				5E13A5F01CB6C70400C76651 /* Sources */,
+				5E13A5F11CB6C70400C76651 /* Frameworks */,
+				5E13A5F21CB6C70400C76651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = holaMundo;
+			productName = holaMundo;
+			productReference = 5E13A5F41CB6C70400C76651 /* holaMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E13A6091CB6C70400C76651 /* holaMundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E13A6171CB6C70400C76651 /* Build configuration list for PBXNativeTarget "holaMundoTests" */;
+			buildPhases = (
+				5E13A6061CB6C70400C76651 /* Sources */,
+				5E13A6071CB6C70400C76651 /* Frameworks */,
+				5E13A6081CB6C70400C76651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E13A60C1CB6C70400C76651 /* PBXTargetDependency */,
+			);
+			name = holaMundoTests;
+			productName = holaMundoTests;
+			productReference = 5E13A60A1CB6C70400C76651 /* holaMundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E13A5EC1CB6C70400C76651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "angel sandoval";
+				TargetAttributes = {
+					5E13A5F31CB6C70400C76651 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					5E13A6091CB6C70400C76651 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5E13A5F31CB6C70400C76651;
+					};
+				};
+			};
+			buildConfigurationList = 5E13A5EF1CB6C70400C76651 /* Build configuration list for PBXProject "holaMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E13A5EB1CB6C70400C76651;
+			productRefGroup = 5E13A5F51CB6C70400C76651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E13A5F31CB6C70400C76651 /* holaMundo */,
+				5E13A6091CB6C70400C76651 /* holaMundoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E13A5F21CB6C70400C76651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13A6021CB6C70400C76651 /* Images.xcassets in Resources */,
+				5E13A6051CB6C70400C76651 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E13A6081CB6C70400C76651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E13A5F01CB6C70400C76651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13A6001CB6C70400C76651 /* ViewController.m in Sources */,
+				5E13A5FD1CB6C70400C76651 /* main.m in Sources */,
+				5E13A5FB1CB6C70400C76651 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E13A6061CB6C70400C76651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13A6111CB6C70400C76651 /* holaMundoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E13A60C1CB6C70400C76651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E13A5F31CB6C70400C76651 /* holaMundo */;
+			targetProxy = 5E13A60B1CB6C70400C76651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E13A6031CB6C70400C76651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E13A6041CB6C70400C76651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E13A6121CB6C70400C76651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5E13A6131CB6C70400C76651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E13A6151CB6C70400C76651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = holaMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E13A6161CB6C70400C76651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = holaMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E13A6181CB6C70400C76651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = holaMundoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holaMundo.app/Contents/MacOS/holaMundo";
+			};
+			name = Debug;
+		};
+		5E13A6191CB6C70400C76651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = holaMundoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holaMundo.app/Contents/MacOS/holaMundo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E13A5EF1CB6C70400C76651 /* Build configuration list for PBXProject "holaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E13A6121CB6C70400C76651 /* Debug */,
+				5E13A6131CB6C70400C76651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E13A6141CB6C70400C76651 /* Build configuration list for PBXNativeTarget "holaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E13A6151CB6C70400C76651 /* Debug */,
+				5E13A6161CB6C70400C76651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E13A6171CB6C70400C76651 /* Build configuration list for PBXNativeTarget "holaMundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E13A6181CB6C70400C76651 /* Debug */,
+				5E13A6191CB6C70400C76651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E13A5EC1CB6C70400C76651 /* Project object */;
+}
